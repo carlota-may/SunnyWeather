@@ -4,13 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="530dp"
-    tools:background="@color/gray"
+    tools:background="@color/teal_700"
     android:orientation="vertical">
 
     <FrameLayout
         android:id="@+id/titleLayout"
         android:layout_width="match_parent"
+        android:fitsSystemWindows="true"
         android:layout_height="70dp">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/navBtn"
+            android:layout_marginStart="30dp"
+            android:layout_gravity="center_vertical"
+            android:background="@mipmap/ic_home"/>
 
         <TextView
             android:id="@+id/placeName"
