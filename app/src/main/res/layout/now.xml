@@ -13,7 +13,7 @@
         android:fitsSystemWindows="true"
         android:layout_height="70dp">
 
-        <Button
+        <TextView
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:id="@+id/navBtn"
